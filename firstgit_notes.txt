@@ -1,0 +1,29 @@
+  498  jupyter notebook
+  499  cd /Users/heyiran/Desktop/Crick/
+  500  mkdir Git/
+  501  cd Git/
+  502  touch my_first_file.py
+  503  pwd
+  504  git init  #initialise git
+  505  ls
+  506  ls -a  #to find the hidden git folder
+  507  git status  #check git status
+  508  git add my_first_file.py  #add a file
+  509  git status
+  510  git commit  #commit a file
+  511  git status
+  512  ls
+  514  git log  #see history of git
+  515  ls .git/
+  516  git remote
+  517  git remote add origin https://github.com/yiran25/my_first_repos.git  #set up for git uploading
+  519  git push -u origin master  #upload to git
+  520  nano my_first_file.py  #edit file
+  521  git status
+  522  git add my_first_file.py 
+  523  git commit -m "Add comment"  #add comments to git uploading
+  524  git push
+  525  history
+  526  history > firstgit_notes.txt
+  528  history | grep git > firstgit_notes_git.txt
+
